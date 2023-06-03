@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5;
+}
+
+#head{
+	background-color: #011e29;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 150%;
+}	
+
+.container{
+	display: flex;
+}
+
+#side{
+	background-color: white;
+	border-radius: 15px;
+	text-align: center;
+	height: 150px;
+/* 	padding: 10px;*/
+	margin-top: 7px;
+	margin-right: 5px;
+	margin-left: 25px;
+	width: 150px;
+} 
+
+#middle{
+	text-align: center;
+	background-color: white;
+	border-radius: 8px;
+	height: 200px;
+	width: 320px;
+	padding: 20px;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+.image{
+	height: 100px;
+	width: 150px;
+	padding: 4px;
+}
+
+#right{
+	background-color: white;
+	border-radius: 8px;
+	padding: 20px;
+	height: 400px;
+	width: 150px;
+	margin-top: 7px;
+	margin-right: 25px;
+}
